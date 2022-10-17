@@ -1,0 +1,41 @@
+.name {
+    font-size: 20px;
+    font-family: "Maven Pro", sans-serif;
+    color: black;
+    margin: 5px 10px;
+    padding-bottom: revert;
+}
+
+.name:hover {
+    color: white;
+}
+
+.age {
+    font-size: 18px;
+    font-family: "Maven Pro", sans-serif;
+    color: black;
+}
+
+.age:hover {
+    color: #7afff8;
+}
+
+.taska1 {
+    background-color: #adacac;
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin: 5px 10px;
+}
+
+.spisok {
+    display: block;
+    margin: 2px 5px;
+}
+
+.tableCars {
+    table-layout: fixed;
+    width: 170px;
+    border-collapse: collapse;
+    border: 1px solid #0029d0;
+}

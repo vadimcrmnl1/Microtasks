@@ -47,7 +47,7 @@ type TopCars = {
 export const NewComponent2 = (props: NewComponent2Type) => {
 
     return (
-        <div>
+        <div className={s.table}>
             <table>
                 {props.topCars.map((objectFromTopCars, index) => {
                     return (

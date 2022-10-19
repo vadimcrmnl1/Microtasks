@@ -1,18 +1,18 @@
-import React from 'react';
+import React, {useState} from 'react';
 import s from "./App.module.css";
 import {Taska1} from "./components/Taska1";
 import {students} from "./components/students";
 import {NewComponent, NewComponent2} from "./components/NewComponent";
 import {topCars} from "./components/TopCars";
 import {Button} from "./components/Button";
-
-
+import {ButtonUseState} from "./components/ButtonUseState";
+import {Banknotes} from "./components/Banktotes";
 
 
 function App() {
     return (
         <>
-            <div>
+            <div className={s.App}>
                 <div className={s.titleMain}>MICROTASKS</div>
                 <Taska1 title={'TASK № 1-1'}/>
                 <NewComponent students={students}/>
@@ -20,6 +20,10 @@ function App() {
                 <NewComponent2 topCars={topCars}/>
                 <Taska1 title={'TASK № 1-3'}/>
                 <Button/>
+                <Taska1 title={'TASK № 1-4'}/>
+                <ButtonUseState/>
+                <Taska1 title={'TASK № 1-5'}/>
+                <Banknotes money={[]}/>
 
             </div>
         </>

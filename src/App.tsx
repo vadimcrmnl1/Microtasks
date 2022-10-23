@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import s from "./App.module.css";
 import {Taska1} from "./components/Taska1";
 import {students} from "./components/students";
@@ -7,6 +7,8 @@ import {topCars} from "./components/TopCars";
 import {Button} from "./components/Button";
 import {ButtonUseState} from "./components/ButtonUseState";
 import {Banknotes} from "./components/Banktotes";
+import {InputComponent} from "./components/InputButton/InputComponent";
+
 
 
 function App() {
@@ -24,6 +26,9 @@ function App() {
                 <ButtonUseState/>
                 <Taska1 title={'TASK № 1-5'}/>
                 <Banknotes money={[]}/>
+                <Taska1 title={'TASK № 2-1'}/>
+                <InputComponent/>
+
 
             </div>
         </>

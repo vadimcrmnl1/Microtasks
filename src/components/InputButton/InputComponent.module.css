@@ -1,0 +1,53 @@
+.inputComponent {
+    display: block;
+    width: 500px;
+    border: 2px solid #00c7ff;
+    font-size: 20px;
+    margin-left: 35%;
+    background-color: #fafafa;
+}
+
+.input {
+    display: inline-block;
+    width: 400px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 15px;
+    border: 2px solid #00c7ff;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.input.active {
+    border: 2px solid #00556c;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 10px;
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+    background-color: #ffffff;
+    border: 2px solid #00c7ff;
+    border-radius: 5px;
+    color: #00c7ff;
+    font-size: 25px;
+}
+
+.button:hover {
+    background-color: #00c7ff;
+    color: white;
+}
+
+.button:active {
+    border: 2px solid black;
+    color: black;
+}
+
+.message {
+    margin-left: 20px;
+}
+
+
+

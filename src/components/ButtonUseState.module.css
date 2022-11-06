@@ -1,0 +1,21 @@
+.Button {
+    background-color: #bb2e2e;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+}
+
+.Button:hover {
+    background-color: #7a1919;
+}
+
+.Button:active {
+    color: yellow;
+}
+
+.buttonblock {
+    display: block;
+    margin-left: 37%;
+
+}

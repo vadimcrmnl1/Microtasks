@@ -1,0 +1,84 @@
+.tablo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 400px;
+    border: 1px solid #61dafb;
+    border-radius: 5px;
+    background-color: #282c34;
+    width: 600px;
+    height: 450px;
+
+}
+
+.buttons {
+    display: flex;
+
+    justify-content: space-around;
+
+    border: 1px solid #61dafb;
+    background-color: #282c34;
+    border-radius: 5px;
+    width: 95%;
+    height: 150px;
+
+
+}
+
+.button {
+    font-size: 45px;
+    background-color: #61dafb;
+    color: #282c34;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-weight: bold;
+    height: 50%;
+    min-width: 30%;
+}
+
+.button:hover {
+    background-color: #4daac9;
+}
+
+.button:active {
+    color: white;
+}
+
+.disabled {
+    font-size: 45px;
+    background-color: #387d8f;
+    color: #282c34;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-weight: bold;
+    height: 50%;
+    min-width: 30%;
+}
+
+.number {
+
+    background-color: #61dafb;
+    width: 95%;
+    height: 50%;
+    text-align: center;
+    font-size: 100px;
+
+    border-radius: 5px;
+    margin: 10px 10px 10px 10px;
+    font-weight: bold;
+}
+
+.numberFull {
+    background-color: #61dafb;
+    width: 95%;
+    height: 50%;
+    text-align: center;
+    font-size: 100px;
+    border-radius: 5px;
+    margin: 10px 10px 10px 10px;
+    font-weight: bold;
+    color: red;
+}

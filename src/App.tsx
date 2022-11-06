@@ -8,6 +8,7 @@ import {Button} from "./components/Button";
 import {ButtonUseState} from "./components/ButtonUseState";
 import {Banknotes} from "./components/Banktotes";
 import {InputComponent} from "./components/InputButton/InputComponent";
+import Counter from "./components/Counter/Counter";
 
 
 
@@ -28,6 +29,8 @@ function App() {
                 <Banknotes money={[]}/>
                 <Taska1 title={'TASK № 2-1'}/>
                 <InputComponent/>
+                <Taska1 title={'TASK № 2-2"MONDAY TEST"'}/>
+                <Counter/>
 
 
             </div>
